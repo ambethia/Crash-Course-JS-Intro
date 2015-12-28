@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700italic);
+
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 24pt;
+  background-color: #FEECA4;
+  color: #0FA6BE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  font-weight: bold;
+  color: #A00C75;
+}
+
+button {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1em;
+  border: none;
+  background-color: #A00C75;
+  color: #D3E318;
+}
+
+button:hover {
+  background-color: #352549;
+}
+
+button:active {
+  background-color: #352549;
+  color: #A00C75;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#game {
+  display: none;
+}
